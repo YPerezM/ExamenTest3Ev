@@ -23,7 +23,7 @@ public class CorreccionMensaje {
           System.out.println("bien hecho");
         } else {
           mens = cal.getMensajeResultado();
-       System.out.println("mal hecho");
+       System.out.println("es incorrecto");
         }
     return mens;
     }
