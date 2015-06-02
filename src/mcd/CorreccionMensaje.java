@@ -17,6 +17,15 @@ public class CorreccionMensaje {
         if (cal.getNumero1() < 0 && cal.getNumero2() < 0) {
             mens = cal.getMensajeResultado();
           System.out.println(mens);
-        
+        }
+     if (cal.getNumero1() > 0 && cal.getNumero2() > 0) {
+         mens = cal.getMensajeResultado();
+          System.out.println("bien hecho");
+        } else {
+          mens = cal.getMensajeResultado();
+       System.out.println("mal hecho");
+        }
+    return mens;
+    }
     
 }
