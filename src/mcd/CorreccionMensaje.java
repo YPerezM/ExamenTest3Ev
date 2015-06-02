@@ -20,7 +20,7 @@ public class CorreccionMensaje {
         }
      if (cal.getNumero1() > 0 && cal.getNumero2() > 0) {
          mens = cal.getMensajeResultado();
-          System.out.println("bien hecho");
+          System.out.println("correctamente hecho");
         } else {
           mens = cal.getMensajeResultado();
        System.out.println("es incorrecto");
