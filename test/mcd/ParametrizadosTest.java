@@ -39,9 +39,9 @@ public class ParametrizadosTest {
    public static Collection MCDnumeros() {
       return Arrays.asList(new Object[][] {
          { new Calculo (2,2,"calculo bien hecho"), 2},
-         {  new Calculo (2,5,"calculo bien hecho"), 1},
-         { new Calculo (2,2,"calculo bien hecho"), 2},
-         {  new Calculo (2,-1,"calculo bien hecho"), 3}
+         {  new Calculo (8,5,"calculo bien hecho"), 1},
+         { new Calculo (4,2,"calculo bien hecho"), 2},
+         {  new Calculo (2,4,"calculo bien hecho"), 2}
                       
       });
    }
