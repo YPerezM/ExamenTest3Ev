@@ -17,6 +17,11 @@ public class Calculo {
 
     public Calculo() {
     }
+    
+    public Calculo(int numero1, int numero2, String mensajeResultado) {
+        this.numero1 = numero1;
+        this.numero2 = numero2;
+    }
 
     //setters
     public void setNumero1(int numero) {
